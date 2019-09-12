@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_programacion"
+            android:icon="@drawable/configuracion1"
+            android:title="@string/programacion_item" />
+        <item
+            android:id="@+id/nav_sincronizacion"
+            android:icon="@drawable/procesar3"
+            android:title="@string/sincronizacion_item" />
+        <item
+            android:id="@+id/nav_finalizarhojaruta"
+            android:icon="@drawable/apagar1"
+            android:title="@string/finaliarhojaruta_item" />
+        <item
+            android:id="@+id/nav_pendientes"
+            android:icon="@drawable/aviso1"
+            android:title="@string/pendientes_item" />
+    </group>
+
+    <item android:title="EMERGENCIA">
+        <menu>
+            <item
+                android:id="@+id/nav_emergencia"
+                android:icon="@drawable/balanza1"
+                android:title="@string/emergencia_item" />
+        </menu>
+    </item>
+
+    <item android:title="CERRAR">
+        <menu>
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/balanza1"
+                android:title="@string/cerrar_item" />
+        </menu>
+    </item>
+
+</menu>
