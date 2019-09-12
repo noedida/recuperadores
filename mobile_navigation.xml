@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_programacion">
+
+    <fragment
+        android:id="@+id/nav_programacion"
+        android:name="pe.com.cajahuancayo.pkarecuperadores.ui.programacion.ProgramacionFragment"
+        android:label="@string/programacion_item"
+        tools:layout="@layout/activity_programacion" />
+
+    <fragment
+        android:id="@+id/nav_sincronizacion"
+        android:name="pe.com.cajahuancayo.pkarecuperadores.ui.sincronizacion.SincronizacionFragment"
+        android:label="@string/sincronizacion_item"
+        tools:layout="@layout/activity_sincronizacion" />
+
+    <fragment
+        android:id="@+id/nav_finalizarhojaruta"
+        android:name="pe.com.cajahuancayo.pkarecuperadores.ui.emergencia.EmergenciaFragment"
+        android:label="@string/finaliarhojaruta_item"
+        tools:layout="@layout/activity_cerrar_hoja_ruta" />
+
+    <fragment
+        android:id="@+id/nav_pendientes"
+        android:name="pe.com.cajahuancayo.pkarecuperadores.ui.pendiente.PendienteFragment"
+        android:label="@string/pendientes_item"
+        tools:layout="@layout/activity_pendiente" />
+
+    <fragment
+        android:id="@+id/nav_emergencia"
+        android:name="pe.com.cajahuancayo.pkarecuperadores.ui.finalizarhojaruta.FinalizarHojaRutaFragment"
+        android:label="@string/emergencia_item"
+        tools:layout="@layout/activity_emergencia" />
+</navigation>
